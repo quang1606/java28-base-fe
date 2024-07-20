@@ -7,7 +7,7 @@
     width: 1400px;
     height: 1100px;
    
-    background-color:rgb(198, 201, 201);
+    background-color:rgb(231, 233, 233);
     align-content: space-evenly;
     margin: auto;
   
@@ -15,6 +15,7 @@
 .container1{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 40px;
 }
 .container2{
     display: flex;
