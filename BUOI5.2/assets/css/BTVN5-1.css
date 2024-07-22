@@ -115,7 +115,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 6%;
+    border-radius: 5%;
  }
 .document{
     position: absolute;
