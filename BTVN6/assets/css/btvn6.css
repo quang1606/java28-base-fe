@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .container{
+    width: 100%;
+    height: 664px;
+   
+    
+ }
+ .top{
+    font-size: 25px;
+    width: 100%;
+    height: 75px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(197, 197, 196);
+    border-bottom: 1px solid rgb(204, 204, 200)
+ }
+ .google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    
+ }
+ .g{
+    color: rgb(28, 28, 184);
+    
+ }
+ .o1{
+    color: red;
+    
+ }
+ .o2{
+    color: gold;
+   
+ }
+ 
+.l{
+    color: green;
+}
+.e{
+    color: red;
+}
+.top {
+    color: rgb(119, 116, 116);
+}
+.center{
+    height: 589px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+
+}
+.center2{
+    height: 520px;
+    width: 850px;
+    display: flex;
+}
+.left{
+     
+    height: 520px;
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-betweeN;
+}
+.mot{
+    font-size: 37px;
+}
+.hai input{
+    width: 100%;
+    height: 50px;
+}
+.ba{
+    color: dimgray;
+}
+input[type="radio"] {
+    -webkit-appearance: none; /* Ẩn giao diện mặc định của radio button trên Chrome/Safari */
+    -moz-appearance: none; /* Ẩn giao diện mặc định của radio button trên Firefox */
+    appearance: none; /* Ẩn giao diện mặc định của radio button */
+    width: 20px; /* Độ rộng của radio button */
+    height: 20px; /* Chiều cao của radio button */
+    border-radius: 50%; /* Để radio button tròn */
+    border: 2px solid #ccc; /* Viền của radio button */
+    outline: none; /* Loại bỏ đường viền xung quanh khi được focus */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi */
+    cursor: pointer; /* Con trỏ chuột thành dấu nhấp chuột khi di chuyển qua radio button */
+}
+input[type="radio"]:hover {
+    transform: scale(1.1); /* Phóng to radio button khi di chuột qua */
+}
+
+input[type="radio"]:checked {
+    border-color: #2196F3; /* Màu viền khi radio button được chọn */
+}
+.chin select {
+    width: 100%;
+    height: 50px;
+}
+.muoi button{
+    color: aliceblue;
+    width: 35%;
+    height: 45px;
+    border-radius: 30%;
+    background-color: rgb(72, 101, 228);
+}
+.center3{
+   
+    width: 18%;
+    height: 520px;
+    
+}
+.right{
+    width: 41%;
+    height: 520px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-betweeN; 
+}
+.icontop{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.right-table{
+    width: 100%;
+    height: 40%;
+    background-color:rgb(245, 243, 243);
+    position: relative;
+  
+    
+}
+.right-table2{
+    position: absolute;
+    margin:  13px 7px 20px 13px;
+    
+    width: 90%;
+    height: 80%;
+    display: flex;
+    font-size: 14px;
+   width: 90%;
+background-color: white;
+}
+.right-table3{
+    width: 35%;
+    height: 130px ;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.right-table3-1{
+    display: flex;
+    font-size: 12px;
+   
+}
+.iconmain{
+    width: 80%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    
+    
+}
+.title{
+    font-size: 30px;
+    margin-left: 30PX;
+}
+.content{
+    margin-left: 30px;
+}
