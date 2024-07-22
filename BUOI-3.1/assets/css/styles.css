@@ -1,0 +1,37 @@
+/* reset Browser */
+*{
+    margin: 0; /*Khoang cach Phantu */  
+    padding: 0; /* khoan cach phan tu  */
+    box-sizing: border-box;
+    /* kich thuoc phan tu tren ca trinh duyet nhu nhau */
+}
+
+/* Bo chon theo ID */
+#title_2_1 {
+    color: red;
+}
+#title_2_2{
+    color: blue;
+}
+/* Bo chon class */
+.title_3_1{
+    color: violet;
+}
+.title_3_2{
+    color: orange;
+}
+/* Bo chon cha con XY */
+h4 {
+    color: pink;
+}
+div h4{
+    color: green;
+}
+
+/* Bo chon theo link */
+a:link {
+    color: black;
+}
+a:visited{
+    color: aqua;
+}

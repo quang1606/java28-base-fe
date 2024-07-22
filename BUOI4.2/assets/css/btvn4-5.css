@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+    background-color:rgb(240, 241, 241);
+    padding: 20px;
+   
+}
+.click{
+    background-color:rgb(191, 235, 191);
+   
+}
+.click a{
+    text-decoration: none;
+}
+#p1{
+    color:dimgray;
+    padding-top: 10px;
+}
+h2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }

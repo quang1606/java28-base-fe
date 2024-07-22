@@ -4,8 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      table, tr, td, th {
+          border: 1px solid black;
+      }
+
+      table {
+          border-collapse: ollapse;
+      }
+  </style>
 </head>
 <body>
-    <h1>hello 5000 ae</h1>
+    <!-- Table trong HTML -->
+     <h1>Thong tin sinh vien</h1>
+     <Table>
+        <thead>
+            <tr>
+                <th>Ho ten</th>
+                <th>Tuoi</th>
+                <th>email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>nguyen van a</td>
+                <td>19</td>
+                <td>nguyen van a @gmail.com</td>
+            </tr>
+            <tr>
+                <td>Nguyen can b</td>
+                <td>25</td>
+                <td>nguyen van b @gmail.com</td>
+            </tr>
+        </tbody>
+     </Table>
+<!-- form trong HTLM -->
+     <h2>form dang ky nhan iphone </h2>
+<form >
+    <label>Ho ten:</label>
+    <input type="text" placeholder="Vui long nhap vao ho ten...">
+    <br>
+    <label >Email:</label>
+    <input type="email" placeholder="vui long nhap vao email" >
+    <br>
+    <br>
+    <label>Password</label>
+    <input type="password" placeholder="Nhap mat khau">
+    <br>
+    <br>
+    <label for="">Dat hang</label>
+    <select >
+        <option value="">iphone 14</option>
+        <option value="">iphone 14 promax</option>
+        <option value="">iphone 15</option>
+    </select>
+    <br>
+    <br>
+    <button type="submit">Gui di</button>
+</form>
+
+<!-- the block -->
+ <p>Doan van 1</p>
+ <p>Doan van 2</p>
+ 
+
+ <!-- The inline -->
+  <a href="#">The line ket</a>
+  <button>click me</button>
+
+  <!-- The div trong html -->
+   <div>
+    <p>Noi dung 1</p>
+   </div>
+
+   <!-- The span -->
+    <h2>Hello 500 anh lop <span>java 28</span></h2>
+
+
+    <label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+<label for="cars">Choose a car:</label>
+<select name="cars" id="cars">
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+<!-- CHON date -->
+<form>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+</form>
+<!-- Chon file cho vao -->
+<form>
+    <label for="myfile">Select a file:</label>
+    <input type="file" id="myfile" name="myfile">
+  </form>
 </body>
 </html>

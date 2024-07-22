@@ -1,0 +1,28 @@
+/* Peset Browser */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: initial;
+}
+/* Margin, Padding */
+.item-1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-top: 50px;
+    padding-left: 20px;
+    /* Border vine pt  */
+    border: 5px solid red;
+}
+.item-2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    /* Bo goc */
+    border-radius: 50%;
+    /* An phan tu di */
+     display: none; 
+}
