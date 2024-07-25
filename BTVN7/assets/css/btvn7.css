@@ -68,7 +68,12 @@ ul {
 }
 .q1:hover  {
     color:rgb(243, 109, 0); 
+    
 }
+.q1:hover > .icon1{
+    transform: rotate(180deg);
+}
+
 
 .menu-item p .icon {
     display: none;

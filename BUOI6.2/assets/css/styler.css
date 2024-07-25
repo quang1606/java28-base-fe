@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Translate(x,y */
+.box-1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* transform: translate(100px, 30px); */
+    /* transform: translateX(100px); */
+}
+.box-2{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: auto;
+    
+}
+
+.box-2:hover{
+    transform: scale(2,2);
+}
+.box-3{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    transform: rotate(45deg);
+}
+.box-4{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+    transition: transform .5s;
+}
+
+.box-4:hover{
+    /* transform: scale(2,2); */
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}

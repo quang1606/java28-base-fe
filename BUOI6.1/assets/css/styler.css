@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Tay doi gia tri cua mot thuco tinh */
+.box-1{
+    width: 200px;
+    background-color: red;
+    height: 200px;
+    transition: width 1s ;
+}
+/* HOVER CU phap khi di chuot vao 1 PT */
+.box-1:hover{
+    width: 400px;
+    
+}
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: width 0.3s, height 0.3s;
+}
+.box-2:hover{
+    width: 400px;
+    height: 400px;
+}
+
+
+/* Toc do chuyen doi */
+.wrap-box div{
+    width: 200px;
+    height: 200px;
+}
+
+/* ---linear---- */
+.box-3{
+    background-color: violet;
+    transition: width 0.4s;
+
+}
+
+.box-3:hover{
+    width: 500px;
+}
+/* --ease */
+.box-4{
+    background-color: yellow;
+    transition: 4s;
+    transition-timing-function: ease;
+}
+.box-4:hover{
+    width: 500px;
+}
+.box-6{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition: width 0.5s;
+    transition-delay: 3s;
+}
+ .box-6:hover{
+    width: 800px;
+ }
