@@ -42,7 +42,7 @@ ul {
     display: block;
     height: 27px;
     padding-left: 8px;
-
+    z-index: 0;
     font-family: "Roboto", sans-serif;
     display: flex;
     justify-content: space-between;
@@ -60,7 +60,11 @@ ul {
 .menu-item:hover > p .icon {
     display: inline-block;
     color:  rgb(243, 109, 0);
+    
    
+}
+.menu-item:hover{
+    background-color:#ECEFF1;
 }
 .q1:hover  {
     color:rgb(243, 109, 0); 
