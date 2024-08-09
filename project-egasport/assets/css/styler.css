@@ -1,35 +1,258 @@
+/* Reset Browser */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family:"Mulish" , sans-serif   ;
-}
+    font-family: "Mulish", sans-serif;
+  }
+  
+  /* Global CSS */
+  .container {
+    width: 1200px;
+    margin: auto;
+  }
 
-/* header-top */
-.header-top{
+
+  .column{
+    width: calc(100% / 4);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+  /* Header-Top */
+  .header-top {
     width: 100%;
     height: 40px;
-    background-color: #000000;
+    background-color: #000;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+  
     position: relative;
-}
-
-.header-top p{
-    color: #f8f8f7;
+    /* Mat Troi */
+  }
+  
+  .header-top p {
+    color: #fff;
     font-size: 16px;
-}
-.header-top .close{
+  }
+  
+  .header-top .close {
     width: 25px;
     height: 25px;
-    background-color: white;
+    background-color: #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 600px;
+    font-weight: 600;
     border: none;
+  
     position: absolute;
     right: 10px;
-}
+  }
+  
+  /* Header Main */
+  .header-main {
+    width: 100%;
+    height: 65px;
+   
+  }
+  .wrap-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    /* width: 20%; */
+    height: 65px;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .menu-main {
+    height: 65px;
+    /* width: 50%;
+    background-color: aqua; */
+  }
+  .menu-main ul {
+    display: flex;
+    height: 65px;
+    align-items: center;
+  }
+  .menu-main ul li {
+
+    list-style: none; /* Bo dau cham li*/
+    position: relative;
+  }
+  .menu-main ul li a {
+    text-decoration: none; /* Bo gach chan the a */
+    color: #000;
+    font-weight: 600; /* Do dam cua chu */
+    margin-right: 20px;
+  }
+
+/* Menu -c1 */
+
+  .menu-main ul li .menu-c1{
+    width: 200px;
+    position: absolute;
+    z-index: 999999;
+    /* cahc cha sat luon */
+    left: 0;
+    top: 100%; 
+    
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    /* display: block; */
+     display: none; 
+   
+    height: auto;
+  }
+  .menu-main ul li .menu-c1 li{
+    position: relative;
+  }
+  
+  .menu-main ul li .menu-c1 li a{
+    padding: 10px 15px;
+    width: 100%;
+    margin-right: 0;
+    display: block;
+  }
+  
+  .menu-main ul li .menu-c1 li a:hover{
+background-color: gray;
+  }
+  .menu-main ul li:hover .menu-c1{
+    display: block;
+  }
+
+  /* menu-c2 */
+  .menu-main ul li .menu-c1 li .menu-c2{
+    position: absolute;
+    left: 100%;
+    background-color: #fff;
+    top: -100%;
+    /* display: block; */
+    width: 200px;
+    height: auto;
+    display: none;
+
+  }
+
+  .menu-main ul li .menu-c1  :hover .menu-c2{
+    display: block;
+  }
+
+  .button-menu {
+    /* width: 15%; */
+    /* background-color: orange; */
+  
+    height: 65px;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .button-menu button {
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: #fff;
+  }
+  
+  /* :hover -> thuoc tinh nguoi dung di chuot qua nut buttopn */
+  .button-menu button:hover {
+    background-color: #F8F8F8;
+    cursor: pointer; /* chuyen tu mui ten thanh ban tay */
+  }
+  .button-menu .active:hover {
+    cursor: not-allowed; 
+    background-color: #fff;
+  
+  }
+  
+  .button-user {
+    /* width: 15%;
+    height: 65px;
+    background-color: pink; */
+    height: 65px;
+
+  }
+  .button-user ul{
+    display: flex;
+    height: 65px;
+    align-items: center;
+  }
+  .button-user ul li{
+    list-style: none;
+    margin-left: 12px;
+    position: relative;
+  }
+  .button-user ul li{
+font-size: 22px;
+  }
+  .button-user ul li span{
+    width: 20px;
+    height: 20px;
+    background-color: #2C51B0;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: -7px;
+    right: -8px;
+  }
+
+  /* ;isting product */
+  .listing-product
+  {
+    width: 100%;
+    /* height: 500px;
+    background-color: pink; */
+    padding: 40px;
+  }
+
+  .content{
+    width: 100%;
+    height: 300px;
+    background-color: green;
+    margin-bottom: 20px;
+  }
+
+
+
+  /* Responsive */
+  /* Destop */
+  @media screen and (max-width: 1450px){
+   
+    
+  }
+  /* Table */
+  @media screen and (max-width: 780px){
+    .container{
+      width: 100%;
+    }
+    .menu-main{
+      display: none;
+    }
+    .button-menu{
+      display: none;
+    }
+  }
+
+  /* Mobile */
+  @media screen and (max-width: 420px){
+    
+  }
